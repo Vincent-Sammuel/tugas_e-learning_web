@@ -1,0 +1,44 @@
+/* Set style for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Main header */
+  h1 {
+    color: #333;
+  }
+
+  img{
+    width: 200px;
+  }
+  /* Card style for content blocks */
+  .card {
+    border: none;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    color: #007bff;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
